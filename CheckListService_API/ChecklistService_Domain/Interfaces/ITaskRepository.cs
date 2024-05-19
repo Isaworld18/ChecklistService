@@ -11,9 +11,9 @@
 
         Task<Work> Update(Work data);
 
-        Task<Work> Get(int workId);
-
         Task<bool> Exists(string desc);
+
+        Task<Work> Get(int workId);
 
         Task<List<Work>> Get(bool done);
 

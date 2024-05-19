@@ -25,7 +25,7 @@ public partial class ChecklistDbMdfContext : DbContext
         {
             entity.HasKey(e => e.Id).HasName("PK__Works__3214EC075A5261C6");
 
-            entity.Property(e => e.Id).ValueGeneratedNever();
+            entity.Property(e => e.Id).ValueGeneratedOnAdd();
             entity.Property(e => e.Description).HasMaxLength(50);
         });
 

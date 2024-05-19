@@ -17,7 +17,7 @@
             await _dbMdfContext.Works.AddAsync(data);
             _dbMdfContext.SaveChanges();
 
-            return _dbMdfContext.Works.Last();
+            return data;
         }
 
         public async Task<Work> Update(Work data)
@@ -28,15 +28,15 @@
             return await Get(data.Id);
         }
 
+        public async Task<bool> Exists(string desc)
+        {
+            return await _dbMdfContext.Works.SingleAsync(w => w.Description.ToLower() == desc.ToLower())
+                                             is not null;
+        }
+
         public async Task<Work> Get(int workId)
         {
             return await _dbMdfContext.Works.SingleAsync(w => w.Id == workId);
-        }
-
-        public async Task<bool> Exists(string desc)
-        {
-            return await _dbMdfContext.Works.SingleAsync(w => w.Description.ToLower() == desc.ToLower()) 
-                                             is not null;
         }
 
         public async Task<List<Work>> Get(bool done)
