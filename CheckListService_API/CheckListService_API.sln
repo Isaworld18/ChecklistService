@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckListService_API", "CheckListService_API\CheckListService_API.csproj", "{BE3B21BE-C241-4A63-8C32-C0905BB66F77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChecklistService_Application", "ChecklistService_Application\ChecklistService_Application.csproj", "{61789D1B-662A-46BC-95FC-0F61225B4258}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChecklistService_Infrastructure", "ChecklistService_Infrastructure\ChecklistService_Infrastructure.csproj", "{914FCB81-8D5B-4DD6-BF4E-5091A41CBFDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChecklistService_Domain", "ChecklistService_Domain\ChecklistService_Domain.csproj", "{2D4B84E0-08AC-4212-BBDB-3DB83FA1AE72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChecklistService_Helper", "ChecklistService_Helper\ChecklistService_Helper.csproj", "{9C1E3A9F-260C-4313-89B4-C5D08E0DE1EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChecklistService_Test", "ChecklistService_Test\ChecklistService_Test.csproj", "{97923F33-E90B-4C1E-96DF-80F643FCCA74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{50630704-680D-4AB5-A92A-B0A2A6A63B0B}"
+	ProjectSection(SolutionItems) = preProject
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE3B21BE-C241-4A63-8C32-C0905BB66F77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE3B21BE-C241-4A63-8C32-C0905BB66F77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE3B21BE-C241-4A63-8C32-C0905BB66F77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE3B21BE-C241-4A63-8C32-C0905BB66F77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61789D1B-662A-46BC-95FC-0F61225B4258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61789D1B-662A-46BC-95FC-0F61225B4258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61789D1B-662A-46BC-95FC-0F61225B4258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61789D1B-662A-46BC-95FC-0F61225B4258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{914FCB81-8D5B-4DD6-BF4E-5091A41CBFDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{914FCB81-8D5B-4DD6-BF4E-5091A41CBFDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{914FCB81-8D5B-4DD6-BF4E-5091A41CBFDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{914FCB81-8D5B-4DD6-BF4E-5091A41CBFDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D4B84E0-08AC-4212-BBDB-3DB83FA1AE72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D4B84E0-08AC-4212-BBDB-3DB83FA1AE72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D4B84E0-08AC-4212-BBDB-3DB83FA1AE72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D4B84E0-08AC-4212-BBDB-3DB83FA1AE72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C1E3A9F-260C-4313-89B4-C5D08E0DE1EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C1E3A9F-260C-4313-89B4-C5D08E0DE1EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C1E3A9F-260C-4313-89B4-C5D08E0DE1EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C1E3A9F-260C-4313-89B4-C5D08E0DE1EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97923F33-E90B-4C1E-96DF-80F643FCCA74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97923F33-E90B-4C1E-96DF-80F643FCCA74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97923F33-E90B-4C1E-96DF-80F643FCCA74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97923F33-E90B-4C1E-96DF-80F643FCCA74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E91770DE-C9C2-4D5E-B1A0-BF0542625B2D}
+	EndGlobalSection
+EndGlobal
