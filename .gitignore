@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/CheckListService_API/.vs
+/CheckListService_API/CheckListService_API/obj
+/CheckListService_API/ChecklistService_Application/bin/Debug/net8.0
+/CheckListService_API/ChecklistService_Application/obj
+/CheckListService_API/ChecklistService_Domain/bin/Debug/net8.0
+/CheckListService_API/ChecklistService_Domain/obj
+/CheckListService_API/ChecklistService_Helper/bin/Debug/net8.0
+/CheckListService_API/ChecklistService_Helper/obj
+/CheckListService_API/ChecklistService_Infrastructure/bin/Debug/net8.0
+/CheckListService_API/ChecklistService_Test/bin/Debug/net8.0
+/CheckListService_API/ChecklistService_Infrastructure/obj
+/CheckListService_API/ChecklistService_Test/obj
+/CheckListService_API/CheckListService_API/bin/Debug/net8.0
