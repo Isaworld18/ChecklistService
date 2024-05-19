@@ -37,7 +37,7 @@
 
             Assert.Multiple(() =>
             {
-                Assert.That(added.Id > 0, Is.True);
+                Assert.That(added.Id, Is.GreaterThan(0));
                 Assert.That(_singleData.Description, Is.EqualTo(added.Description));
             });
         }
