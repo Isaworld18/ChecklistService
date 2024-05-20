@@ -41,7 +41,7 @@
 
         [HttpGet]
         [Route("list/{done}")]
-        [ProducesResponseType(typeof(ListTasksQueryResponse), (int)HttpStatusCode.Created)]
+        [ProducesResponseType(typeof(ListTasksQueryResponse), (int)HttpStatusCode.Found)]
         public async Task<IActionResult> ListTasks([FromRoute] bool areDone)
         {
             try
@@ -59,7 +59,7 @@
 
         [HttpGet]
         [Route("order/{orderBy}")]
-        [ProducesResponseType(typeof(OrderTaskByQueryResponse), (int)HttpStatusCode.Created)]
+        [ProducesResponseType(typeof(OrderTaskByQueryResponse), (int)HttpStatusCode.Found)]
         public async Task<IActionResult> OrderTaskBy(int orderBy)
         {
             try
@@ -84,7 +84,7 @@
 
         [HttpPost]
         [Route("{taskID}/done")]
-        [ProducesResponseType(typeof(MarkTaskAsDoneCommandResponse), (int)HttpStatusCode.Created)]
+        [ProducesResponseType(typeof(MarkTaskAsDoneCommandResponse), (int)HttpStatusCode.OK)]
         public async Task<IActionResult> MarkTaskAsDone([FromRoute] int taskId)
         {
             try
